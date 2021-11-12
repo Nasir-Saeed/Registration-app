@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dongle&family=Roboto:wght@300&display=swap');
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 80vw;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.container input {
+    border: 3px solid grey;
+    padding: 15px 12px;
+    width: 60vw;
+    border-radius: 7px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container button {
+    padding: 13px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: all 0.2s;
+    font-size: 16px;
+    border: 2px solid black;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 8px;
+    margin-left: 150px;
+}
+
+.table {
+    font-family: 'Roboto', sans-serif;
+    width: 82%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    font-weight: bold;
+}
